@@ -1,16 +1,13 @@
-# utils
+# zmy-js-toolkit
+javascript常用工具库，含数组,日期,事件,函数,DOM处理,数字,正则,字符串等模块
 
-## 开发须知
+```
+#####安装
+ npm install 
 
-为了方便开发态调试，开发模式下 utils 可切换至 `development` 模式开发，发布前须切换至 `production` 模式。
 
-```bash
-npm run dev
+#####使用
+#######vue
+
 ```
 
-## 发布流程
-
-```bash
-npm run build
-npm publish
-```
