@@ -62,7 +62,7 @@ const deepFlatten = arr =>
 
 
 /**
- * @description 对数组重新随机排序
+ * @description 重新随机排序
  * @param {Array} arr
  * @returns {Array}
  * @author  MrAlenZhong
@@ -89,7 +89,6 @@ const sample = (arr, size = 1) => {
     const list = shuffe(arr);
     return list.slice(0, size);
 };
-
 
 /**
  * @description 获取指定元素的下标值
