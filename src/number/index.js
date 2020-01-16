@@ -106,6 +106,17 @@ const max = (...args) => {
 */
 const toCurrency = num => String(num).replace(/(?!^)(?=(\d{3})+$)/g, ",");
 
+/**
+ * @description 升降序
+ * @param {Number} sign
+ * @param {Number} args
+ * @returns
+ * @author  MrAlenZhong
+ * @date 2020-01-14 20:07:21
+*/
+function sort(sign, args) {
+  return args.sort((a, b) => (a - b) * sign);
+}
 
 /**
  * @description 升序
