@@ -18,7 +18,7 @@ import tool from 'zmy-js-toolkit'
 Vue.prototype.tool = tool
 ```
 
-[API使用文档](http://localhost:8081/toolkit/api.html)
+[API使用文档](https://wdlnydhcg.github.io/)
 
 
 **功能导图**
